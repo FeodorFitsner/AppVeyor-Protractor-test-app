@@ -24,8 +24,7 @@ deploy:
   AppVeyor-Protractor-test-app.protocol: http
   AppVeyor-Protractor-test-app.remove_files: true
 after_deploy:
-  - type node_modules\protractor\bin\webdriver-manager
-#  - node_modules\protractor\bin\webdriver-manager update
+  - node_modules\protractor\node_modules\.bin\webdriver-manager update --gecko false
   - npm test
 artifacts:
 - path: npm-debug.log
