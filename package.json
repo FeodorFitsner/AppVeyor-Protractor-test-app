@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Crevil/AppVeyor-Protractor-test-app#readme",
   "dependencies": {
     "jasmine-core": "^2.3.4",
-    "protractor": "^3.0.0"
+    "protractor": "^5.1.1"
   }
 }
