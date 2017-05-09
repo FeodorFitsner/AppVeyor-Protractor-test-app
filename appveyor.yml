@@ -1,6 +1,6 @@
 version: 1.0.{build}
 environment:
-  NODEJS_VERSION: "4"
+  NODEJS_VERSION: "6"
 services:
 - iis
 cache:
